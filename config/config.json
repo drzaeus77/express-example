@@ -1,7 +1,10 @@
 {
   "development": {
-    "dialect": "sqlite",
-    "storage": "./db.development.sqlite"
+    "dialect": "postgres",
+    "username": "postgres",
+    "password": null,
+    "database": "postgres",
+    "host": "postgres-baz.marathon.mesos"
   },
   "test": {
     "username": "root",
